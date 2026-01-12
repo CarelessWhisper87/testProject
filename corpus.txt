@@ -1,0 +1,3 @@
+Hello, this is a tokenizer test.
+昨日渋谷でPythonの本を買いました。
+今天天气很好，我们去公园散步吧。

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<form class="d-flex" method="GET" action="{% url 'timeline' %}">
+    <input class="form-control me-2" type="search" placeholder="検索" name="q">
+    <button class="btn btn-outline-success" type="submit">検索</button>
+</form>
+
+<head>
+    <title>テンプレートのテスト</title>
+</head>
+
+<body>
+    <h1>{{ title }}</h1>
+    <p>{{ message }}</p>
+
+    <h2>好きな食べ物リスト</h2>
+    <ul>
+        {% for food in food_list %}
+        <li>{{ food }}</li>
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
